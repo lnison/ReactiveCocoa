@@ -1,6 +1,11 @@
 # master
 *Please put new entries at the top.
 
+# 6.0.0-rc.1
+1. `UIButton.reactive.pressed` now reacts to the `primaryActionTriggered` control event, instead of `touchUpInside`, on iOS 9.0+ and tvOS 9.0+. (#3480, kudos to @andrei-kuzma)
+
+1. New reactive extension: `UITextField.reactive.selectedRangeValues`. (#3479, kudos to @Igor-Palaguta)
+
 # 6.0.0-alpha.1
 # 5.0.4
 1. UITextField text signals now react to `editingDidEndOnExit`. (#3474)
